@@ -22,9 +22,13 @@ Work experience
   
 Skills
 ======
-* c
-* python
-* c++
+* Programming:
+    * Python
+    * c++
+    * c
+* Tools:
+    * Git
+    * Linux
 
 Publications
 ======
