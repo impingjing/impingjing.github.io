@@ -13,12 +13,10 @@ Education
 ======
 * B.S. in Internet, Sun Yat-sen University, 2025
 
-Work experience
+Program experience
 ======
-* Spring 2026: New to academic web
-  * GitHub University
-  * Duties includes: Publish my project
-  * Supervisor: Myself
+* Winter 2025: Greate my academic pages
+* Spring 2026: Develop a wechat mini-program with AI
   
 Skills
 ======
