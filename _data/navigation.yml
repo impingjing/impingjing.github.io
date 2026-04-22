@@ -20,8 +20,8 @@ main:
   #- title: "Portfolio"
    # url: /portfolio/
         
-  #- title: "Blog Posts"  # 博客
-   # url: /year-archive/
+  - title: "Blog Posts"  # 博客
+    url: /year-archive/
     
   - title: "CV"    # 简历
     url: /cv/
