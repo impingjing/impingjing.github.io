@@ -12,6 +12,7 @@ redirect_from:
 Education
 ======
 * B.S. in Internet, Sun Yat-sen University, 2025
+  * Winter 2025 gpa: 4.1/5.0 13/168
 
 Program experience
 ======
