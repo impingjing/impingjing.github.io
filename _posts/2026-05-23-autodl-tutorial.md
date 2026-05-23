@@ -39,7 +39,7 @@ tags:
 
 ## 无卡开机
 
-![image.png](../images/image.png)
+![image.png](/images/image.png)
 
 “无卡模式”（No-GPU Mode）和“正常开机”（Normal Mode）的主要区别在于**是否加载显卡驱动**以及**启动后的系统环境**。
 
@@ -67,15 +67,15 @@ tags:
 
 ### 方法一：直接拖拽
 
-![image.png](../images/image-1.png)
+![image.png](/images/image-1.png)
 
-![image.png](../images/image-2.png)
+![image.png](/images/image-2.png)
 
 文件个文件夹均可通过这种方式进行（先解压缩再拖拽上传十分方便，个人喜欢这种做法）
 
 ### 方法二：点击上传箭头⬆️
 
-![image.png](../images/image-3.png)
+![image.png](/images/image-3.png)
 
 只能上传文件（包括.zip）不能上传文件夹；故一般需要进行解压缩这一步骤：
 
@@ -83,7 +83,7 @@ tags:
 
 在命令行输入 `unzip cleanrl-master.zip` 这个命令进行解压缩（一定注意路径是否正确）
 
-![image.png](../images/image-4.png)
+![image.png](/images/image-4.png)
 
 出现这个文件夹就说明已经解压缩成功！
 
@@ -93,20 +93,20 @@ tags:
 
 FileZilla下载地址：[https://filezilla-project.org/](https://filezilla-project.org/)
 
-![image.png](../images/image-5.png)
+![image.png](/images/image-5.png)
 
 > 注意！**不要放在C盘，养成良好习惯！**
 > 
 
 下载完成并打开就是下面的页面：
 
-![image.png](../images/image-6.png)
+![image.png](/images/image-6.png)
 
 #### 2. 连接远程服务器
 
 - 打开AutoDl的“容器实例”，找到”SSH登录”
 
-![image.png](../images/image-7.png)
+![image.png](/images/image-7.png)
 
 复制登录指令
 
@@ -116,16 +116,16 @@ FileZilla下载地址：[https://filezilla-project.org/](https://filezilla-proje
 
 - 打开FileAilla，点击左上角“文件”>>”站点管理器”>>进入之后点“新站点”
 
-![image.png](../images/image-8.png)
+![image.png](/images/image-8.png)
 
-![image.png](../images/image-9.png)
+![image.png](/images/image-9.png)
 
-![image.png](../images/image-10.png)
+![image.png](/images/image-10.png)
 
 > 建议勾选上“总是信任该主机”，可以让你后续连接更加方便。
 > 
 
-![image.png](../images/image-11.png)
+![image.png](/images/image-11.png)
 
 显示了远程服务器的内容，说明连接成功！
 
@@ -135,17 +135,17 @@ FileZilla下载地址：[https://filezilla-project.org/](https://filezilla-proje
 
 比如，我要上传到 autodl-tmp（推荐上传到这里，读写速度快）
 
-![image.png](../images/image-12.png)
+![image.png](/images/image-12.png)
 
 - 在本地文件夹中选择你要上传的“对象”
 
 比如，我要上传已经解压过的cleanrl-master
 
-![image.png](../images/image-13.png)
+![image.png](/images/image-13.png)
 
 - 上传成功：
 
-![image.png](../images/image-14.png)
+![image.png](/images/image-14.png)
 
 ---
 
@@ -153,7 +153,7 @@ FileZilla下载地址：[https://filezilla-project.org/](https://filezilla-proje
 
 #### 1. 解压时遇到 “cannot find”
 
-![image.png](../images/image-15.png)
+![image.png](/images/image-15.png)
 
 终端里的提示：`root@autodl-container-99af43bb17-5f3e07fb:~#` 中的“~”代表当前正处在系统的默认主目录下。但是我的 cleanrl-master.zip文件是上传到了 `/autodl-tmp/` 目录中。
 
@@ -161,13 +161,13 @@ FileZilla下载地址：[https://filezilla-project.org/](https://filezilla-proje
 
 - 解决方案：在命令行中输入 `cd autodl-tmp`
 
-![image.png](../images/image-16.png)
+![image.png](/images/image-16.png)
 
 #### 2. 无法和 SFTP 服务器建立 FTP 连接，请选择合适的协议。
 
 去检查“协议”一栏是否匹配
 
-![image.png](../images/image-17.png)
+![image.png](/images/image-17.png)
 
 - 三种协议对比
     
@@ -302,7 +302,7 @@ print("训练完成！")
 
 回到终端，确保所在路径是 `/autoal-tmp/` 然后执行这个命令：`python train_gridworld.py` 
 
-![image.png](../images/image-18.png)
+![image.png](/images/image-18.png)
 
 随着训练的进行，你会看到控制台打印出奖励值。当智能体找到通往目标的最短路径时，回合奖励将稳定在 `1.0`。
 
@@ -361,7 +361,7 @@ test_env.close()
 
 - 你会看到：
 
-![image.png](../images/image-19.png)
+![image.png](/images/image-19.png)
 
 > 在 AutoDL 这样的云端服务器上渲染环境有一个特殊的“坑”：因为它是纯命令行的 Linux 系统，没有连接物理显示器。如果像在本地电脑上那样直接使用图形界面的 `render_mode="human"`，程序会因为找不到屏幕而报错崩溃。
 > 
@@ -372,7 +372,7 @@ test_env.close()
 
 #### 1. 忘记切换输入法
 
-![image.png](../images/image-20.png)
+![image.png](/images/image-20.png)
 
 - **取消当前输入**：现在你的终端卡在这个等待状态，请直接在键盘上按下 **`Ctrl + C`**。这会强制终止当前的输入状态，让你回到正常的带有 `#` 的命令提示符。
 - **重新执行命令**：将输入法切换到纯英文状态，重新输入
