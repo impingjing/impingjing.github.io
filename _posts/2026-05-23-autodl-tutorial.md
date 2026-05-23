@@ -1,3 +1,14 @@
+---
+title: "Autodl 入门级教程"
+date: 2026-05-23  # 日期必须和文件名一致
+layout: single    # 或者是 post，取决于你的主题设置
+categories:
+  - Blog          # 确保分类正确，有些主题需要特定分类才会在主页显示
+tags:
+  - Tutorial
+---
+
+
 # 新手入门Autodl！手把手教你！
 
 ## 租卡、开卡
