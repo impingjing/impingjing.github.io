@@ -19,7 +19,7 @@ tags:
 
 ### 如何选择合适的GPU?
 
-[不同GPU的区别](不同GPU的区别.csv)
+[不同GPU的区别](../_posts/gpu_comparison.csv)
 
 #### 总结
 
